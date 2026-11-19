@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">OwaisOS wolf logo</title>
+  <desc id="desc">Symmetrical geometric silver wolf head with cyan glowing eyes inside a teal-to-blue circular frame.</desc>
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35e8b7"/><stop offset=".48" stop-color="#08c9e8"/><stop offset="1" stop-color="#145bff"/></linearGradient>
+    <radialGradient id="disc" cx="50%" cy="38%" r="70%"><stop stop-color="#101d30"/><stop offset="1" stop-color="#030812"/></radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f8ff"/><stop offset=".45" stop-color="#aeb9ca"/><stop offset="1" stop-color="#59677d"/></linearGradient>
+    <linearGradient id="silver2" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#dce4f0"/><stop offset="1" stop-color="#65748b"/></linearGradient>
+    <linearGradient id="darkfur" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#526176"/><stop offset="1" stop-color="#172437"/></linearGradient>
+    <linearGradient id="eye" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d8ffff"/><stop offset=".35" stop-color="#28f6ff"/><stop offset="1" stop-color="#0089ff"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="512" cy="512" r="478" fill="url(#ring)"/>
+  <circle cx="512" cy="512" r="458" fill="#06101d"/>
+  <circle cx="512" cy="512" r="440" fill="url(#disc)"/>
+  <!-- ears -->
+  <path d="M210 470 336 150 490 315 512 385 534 315 688 150 814 470 735 432 690 510 334 510 289 432Z" fill="url(#silver)"/>
+  <path d="M336 150 420 337 350 402 270 449Z M688 150 604 337 674 402 754 449Z" fill="#f0f4fb"/>
+  <path d="M350 204 431 344 373 383 312 432Z M674 204 593 344 651 383 712 432Z" fill="#26354a"/>
+  <path d="M420 337 490 315 512 385 512 475 438 430Z M604 337 534 315 512 385 512 475 586 430Z" fill="#8997aa"/>
+  <!-- outer cheek silhouette -->
+  <path d="M335 360 445 390 512 330 579 390 689 360 755 510 840 585 748 575 820 695 720 655 765 810 664 740 620 900 545 820 512 930 479 820 404 900 360 740 259 810 304 655 204 695 276 575 184 585 269 510Z" fill="url(#darkfur)"/>
+  <!-- forehead and brow facets -->
+  <path d="M336 360 445 390 512 330 512 535 420 490 300 540 269 510Z" fill="#c5cedb"/>
+  <path d="M688 360 579 390 512 330 512 535 604 490 724 540 755 510Z" fill="#8997aa"/>
+  <path d="M445 390 512 330 512 535 470 495Z M579 390 512 330 512 535 554 495Z" fill="#536278"/>
+  <path d="M336 360 445 390 384 475 269 510Z M688 360 579 390 640 475 755 510Z" fill="#e0e6f0"/>
+  <!-- cheek layered shards -->
+  <path d="M269 510 384 475 330 575 204 585Z M755 510 640 475 694 575 820 585Z" fill="#65748a"/>
+  <path d="M300 540 420 490 382 590 276 575Z M724 540 604 490 642 590 748 575Z" fill="#d4dce8"/>
+  <path d="M276 575 382 590 304 655 204 695Z M748 575 642 590 720 655 820 695Z" fill="#8795a9"/>
+  <path d="M382 590 470 560 420 690 304 655Z M642 590 554 560 604 690 720 655Z" fill="#3b4a60"/>
+  <path d="M304 655 420 690 360 740 259 810Z M720 655 604 690 664 740 765 810Z" fill="#c2ccda"/>
+  <path d="M420 690 470 560 512 640 512 820 404 900 360 740Z M604 690 554 560 512 640 512 820 620 900 664 740Z" fill="#718096"/>
+  <path d="M404 900 470 760 512 930 512 820Z M620 900 554 760 512 930 512 820Z" fill="#d9e0ea"/>
+  <!-- eyes sockets and luminous eyes -->
+  <path d="M337 514 438 492 493 548 456 608 370 590 320 548Z M687 514 586 492 531 548 568 608 654 590 704 548Z" fill="#101b2b"/>
+  <path d="M350 535 438 516 478 552 445 579 380 574Z M674 535 586 516 546 552 579 579 644 574Z" fill="#00b9ed" opacity=".3" filter="url(#glow)"/>
+  <path d="M350 535 438 516 478 552 445 579 380 574Z" fill="url(#eye)" filter="url(#glow)"/>
+  <path d="M674 535 586 516 546 552 579 579 644 574Z" fill="url(#eye)" filter="url(#glow)"/>
+  <path d="M375 543 437 531 458 550 435 562 390 560Z M649 543 587 531 566 550 589 562 634 560Z" fill="#eaffff"/>
+  <path d="M337 514 438 492 493 548 456 608 370 590 320 548Z" fill="none" stroke="#dce7f4" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M687 514 586 492 531 548 568 608 654 590 704 548Z" fill="none" stroke="#8797ad" stroke-width="10" stroke-linejoin="round"/>
+  <!-- muzzle bridge -->
+  <path d="M470 495 512 455 554 495 572 665 512 740 452 665Z" fill="#dce3ed"/>
+  <path d="M470 495 512 455 512 740 452 665Z" fill="#f5f7fb"/>
+  <path d="M554 495 512 455 512 740 572 665Z" fill="#8997aa"/>
+  <path d="M452 665 512 630 572 665 555 755 512 785 469 755Z" fill="#c2ccda"/>
+  <path d="M452 665 512 630 512 785 469 755Z" fill="#eef2f8"/>
+  <!-- nose and mouth -->
+  <path d="M460 758 485 730 539 730 564 758 548 798 512 812 476 798Z" fill="#182438" stroke="#aeb9c9" stroke-width="8"/>
+  <path d="M478 758 512 744 546 758 532 779 512 786 492 779Z" fill="#050b14"/>
+  <path d="M512 812 512 846 M512 846 470 858 438 842 M512 846 554 858 586 842" fill="none" stroke="#26354a" stroke-width="12" stroke-linecap="round"/>
+  <!-- lower jaw highlights -->
+  <path d="M438 842 470 858 512 846 554 858 586 842 555 884 512 900 469 884Z" fill="#9ba8ba"/>
+  <path d="M469 884 512 900 512 930 479 908Z M555 884 512 900 512 930 545 908Z" fill="#4a596e"/>
+</svg>
